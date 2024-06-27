@@ -1,9 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   userToken:
-    JSON.parse(sessionStorage.getItem("token")) ||
-    JSON.parse(localStorage.getItem("token")) ||
-    null,
+    sessionStorage.getItem("token") || localStorage.getItem("token") || null,
   userProfil: null,
 };
 // Definir les actions asynchrones
