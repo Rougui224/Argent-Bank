@@ -1,0 +1,35 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  &-logo {
+    display: flex;
+    align-items: center;
+    &-image {
+      max-width: 200px;
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  a,
+  li {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  ul {
+    display: flex;
+  }
+  &-item {
+    text-decoration: none;
+    margin-right: 0.7rem;
+    cursor: pointer;
+    i {
+      margin-right: 3px;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
