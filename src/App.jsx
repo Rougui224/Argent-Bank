@@ -11,7 +11,7 @@ export function App() {
     <Router>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Argent-Bank/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route
           path="/profile"
