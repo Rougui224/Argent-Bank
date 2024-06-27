@@ -35,7 +35,7 @@ export function Header() {
   return (
     <header className="header">
       <nav className="header-nav">
-        <Link to="/" className="header-nav-logo">
+        <Link to="/Argent-Bank/" className="header-nav-logo">
           <img
             loading="eager"
             decoding="async"
